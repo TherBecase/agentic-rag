@@ -6,8 +6,6 @@
 
 **Ragent** 是一套面向企业场景的 **Agentic RAG（检索增强生成）+ 意图路由 + MCP 工具** 平台：用户提问后，系统会做多轮记忆加载、问题重写与拆分、树形意图识别、歧义引导、**知识库多路并行检索**与后处理、必要时 **MCP 工具调用**，最后用多供应商 **LLM 流式生成**答案，并通过 SSE 推给前端；同时提供可编排的 **文档入库 Pipeline**、管理后台与全链路 Trace。另提供 **Deep Research（深度研究）** 工作流：由状态机驱动「宏观问题拆解 → 子问题并行召回 → 每子问题独立摘要压缩 → 流式撰写深度报告」，缓解单次长上下文注意力衰减问题。
 
-- **GitHub**：[https://github.com/nageoffer/ragent](https://github.com/nageoffer/ragent)
-- **官方文档（项目讲解、快速启动等）**：[https://nageoffer.com/ragent](https://nageoffer.com/ragent)
 
 ---
 
@@ -334,8 +332,4 @@ GET http://localhost:9090/api/ragent/rag/v3/deep-research?topic=RAG%20在企业�
 - 原项目宣传用长文、Star History、多图介绍等若需保留，可从版本管理历史中恢复；本文件以**技术说明与落地配置**为主。
 - 配图（架构图等）仍可在仓库 `assets/` 目录查看；本文不依赖图片即可按章节阅读。
 
----
 
-## License
-
-本项目代码以 **Apache License 2.0** 授权（见各源文件头注释与上游仓库说明）。
