@@ -325,11 +325,5 @@ GET http://localhost:9090/api/ragent/rag/v3/deep-research?topic=RAG%20在企业�
 - 新模型厂商：在 **`infra-ai`** 增加客户端实现并接入候选列表。
 - Deep Research：可调整 `prompt/deep-research-*.st` 与 **`DeepResearchProperties`**；若需多轮「检索—摘要」迭代，可在 `DeepResearchState` 与 `DeepResearchServiceImpl` 上扩展循环与轮次上限。
 
----
-
-## 17. 其他说明
-
-- 原项目宣传用长文、Star History、多图介绍等若需保留，可从版本管理历史中恢复；本文件以**技术说明与落地配置**为主。
-- 配图（架构图等）仍可在仓库 `assets/` 目录查看；本文不依赖图片即可按章节阅读。
 
 
